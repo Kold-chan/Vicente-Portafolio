@@ -3,8 +3,8 @@
 :root {
   --bg: #f9f9f9;
   --text: #1a1a1a;
-  --primary: hsl(310, 93%, 48%);
-  --btn-bg: #db0bdb;
+  --primary: hsl(310, 100%, 50%);
+  --btn-bg: #fa03fa;
   --btn-shadow: rgba(209, 20, 20, 0.3);
   --card-bg: #ffffff;
   --card-shadow: rgba(0, 0, 0, 0.05);
@@ -149,7 +149,7 @@ body {
 
 .btn-primary:hover {
   transform: translateY(-3px);
-  background-color: #5a2a83;
+  background-color: #ff02c8;
 }
 
 
@@ -393,7 +393,7 @@ section h2::after {
 }
 
 .botones .btn:hover {
-  background-color: #4a1f6e;
+  background-color: #ff06ff;
   transform: scale(1.05);
 }
 
@@ -436,7 +436,7 @@ section h2::after {
 }
 
 .botones .btn:hover {
-  background-color: #4a1f6e;
+  background-color: #ff01dd;
 }
 
 /* Redes Sociales */
@@ -464,7 +464,7 @@ section h2::after {
 }
 
 .social-icons a:hover {
-  color: #4a1f6e;
+  color: #ff02c0;
   transform: scale(1.2);
 }
 
@@ -559,7 +559,7 @@ section h2::after {
 }
 
 .btn-descargar:hover {
-  background-color: #4a1f6e;
+  background-color: #e100ff;
   transform: translateY(-3px);
 }
 
@@ -694,7 +694,7 @@ section h2::after {
   }
 
   .nav-links .modo-toggle:hover {
-    background-color: rgba(108, 78, 182, 0.1);
+    background-color: rgba(255, 0, 255, 0.1);
     color: var(--primary);
   }
 
