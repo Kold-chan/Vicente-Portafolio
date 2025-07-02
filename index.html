@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio | Vicente</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <!-- Puedes agregar Google Fonts o iconos aquí -->
+</head>
+<body>
+  <!-- 🧭 NAVBAR -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Portafolio</div>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobremi">Sobre mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <!-- Menú hamburguesa si es responsive -->
+      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    </nav>
+  </header>
+
+  <!-- 🎯 INICIO -->
+  <section id="inicio" class="seccion">
+    <h1>Hola, soy Vicente Figueroa</h1>
+    <p>19 años | Estudiante de 4to Medio | Apasionado por la tecnología</p>
+    <a href="CV.pdf" download class="btn">Descargar CV</a>
+  </section>
+
+  <!-- 👨‍💼 SOBRE MÍ -->
+  <section id="sobremi" class="seccion">
+    <h2>Sobre mí</h2>
+    <p>Breve presentación personal y profesional.</p>
+  </section>
+
+  <!-- 🧠 HABILIDADES -->
+  <section id="habilidades" class="seccion">
+    <h2>Habilidades</h2>
+    <ul class="skills-list">
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>Node.js</li>
+      <li>Power BI</li>
+      <li>PL/SQL</li>
+      <!-- Agrega más -->
+    </ul>
+  </section>
+
+  <!-- 🛠️ SERVICIOS -->
+  <section id="servicios" class="seccion">
+    <h2>Servicios</h2>
+    <div class="servicios-grid">
+      <div class="servicio">
+        <h3>Desarrollo Web</h3>
+        <p>Sitios modernos, responsivos y optimizados.</p>
+      </div>
+      <div class="servicio">
+        <h3>Automatización</h3>
+        <p>Scripts y flujos para simplificar procesos.</p>
+      </div>
+      <!-- Más servicios -->
+    </div>
+  </section>
+
+  <!-- 💼 PROYECTOS -->
+  <section id="proyectos" class="seccion">
+    <h2>Proyectos</h2>
+    <div class="proyectos-grid">
+      <div class="proyecto">
+        <h3>Nombre del Proyecto</h3>
+        <p>Descripción breve</p>
+        <a href="#" target="_blank">Ver más</a>
+      </div>
+      <!-- Más proyectos -->
+    </div>
+  </section>
+
+  <!-- 📞 CONTACTO -->
+  <section id="contacto" class="seccion">
+    <h2>Contacto</h2>
+    <form action="mailto:tuemail@correo.com" method="post" enctype="text/plain">
+      <input type="text" name="nombre" placeholder="Tu nombre" required>
+      <input type="email" name="email" placeholder="Tu correo" required>
+      <textarea name="mensaje" placeholder="Tu mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- 📌 FOOTER -->
+  <footer>
+    <p>&copy; 2025 Vicente Figueroa. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- JavaScript opcional -->
+  <script src="script.js"></script>
+</body>
+</html>
