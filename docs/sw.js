@@ -1,12 +1,12 @@
 const CACHE_NAME = 'portafolio-cache-v1';
 const urlsToCache = [
-  '/PortafolioCristian/',
-  '/PortafolioCristian/index.html',
-  '/PortafolioCristian/styles.css',
-  '/PortafolioCristian/manifest.json',
-  '/PortafolioCristian/icons/icon-192.png',
-  '/PortafolioCristian/icons/icon-512.png',
-  '/PortafolioCristian/images/favicon-32x32.png',
+  '/Vicente-Portafolio/',
+  '/Vicente-Portafolio/index.html',
+  '/Vicente-Portafolio/styles.css',
+  '/Vicente-Portafolio/manifest.json',
+  '/Vicente-Portafolio/icons/icon-192.png',
+  '/Vicente-Portafolio/icons/icon-512.png',
+  '/Vicente-Portafolio/images/favicon-32x32.png',
   'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css'
 ];
 
