@@ -3,8 +3,8 @@
 :root {
   --bg: #f9f9f9;
   --text: #1a1a1a;
-  --primary: hsl(310, 100%, 50%);
-  --btn-bg: #fa03fa;
+  --primary: hsl(0, 100%, 50%);
+  --btn-bg: #ff0000;
   --btn-shadow: rgba(209, 20, 20, 0.3);
   --card-bg: #ffffff;
   --card-shadow: rgba(0, 0, 0, 0.05);
@@ -33,8 +33,8 @@ h2::after {
 body.dark {
   --bg: #121212;
   --text: #f0f0f0;
-  --primary: #e4139e;
-  --btn-bg: #ee0aaa;
+  --primary: #ff0000;
+  --btn-bg: #ff0000;
   --btn-shadow: rgba(183, 148, 244, 0.2);
   --card-bg: #1e1e1e;
   --card-shadow: rgba(255, 255, 255, 0.03);
@@ -149,7 +149,7 @@ body {
 
 .btn-primary:hover {
   transform: translateY(-3px);
-  background-color: #ff02c8;
+  background-color: #ff0000;
 }
 
 
@@ -393,7 +393,7 @@ section h2::after {
 }
 
 .botones .btn:hover {
-  background-color: #ff06ff;
+  background-color: #ff0000;
   transform: scale(1.05);
 }
 
@@ -436,7 +436,7 @@ section h2::after {
 }
 
 .botones .btn:hover {
-  background-color: #ff01dd;
+  background-color: #ff0101;
 }
 
 /* Redes Sociales */
@@ -464,7 +464,7 @@ section h2::after {
 }
 
 .social-icons a:hover {
-  color: #ff02c0;
+  color: #ff0202;
   transform: scale(1.2);
 }
 
@@ -559,7 +559,7 @@ section h2::after {
 }
 
 .btn-descargar:hover {
-  background-color: #e100ff;
+  background-color: #ff0000;
   transform: translateY(-3px);
 }
 
@@ -775,7 +775,7 @@ section h2::after {
 
 .emoji-circle {
   font-size: 3rem;
-  background-color: #be0aa0; /* Morado */
+  background-color: #ff0000; /* Morado */
   color: #fff;
   border-radius: 50%;
   padding: 1rem;
@@ -917,7 +917,7 @@ section h2::after {
   right: 20px;
   width: 52px;
   height: 52px;
-  background-color: #e40bd2;
+  background-color: #ff0000;
   color: white;
   border: none;
   border-radius: 50%;
@@ -944,7 +944,7 @@ section h2::after {
 
 #btnSubir:active {
   transform: scale(0.95);
-  background-color: #e409a2;
+  background-color: #ff0000;
 }
 
 /* Firefox específico: elimina borde interno */
